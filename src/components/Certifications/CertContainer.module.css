@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.title {
+  color: #dddddd;
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 80px;
+}
+
+.certificates {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1500px;
+  background: #454545;
+  margin: auto;
+}

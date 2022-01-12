@@ -1,6 +1,6 @@
 .container {
   background: #333;
-  height: 300px;
+  height: 150px;
   padding-top: 20px;
   display: flex;
   flex-wrap: wrap;
@@ -9,4 +9,10 @@
 
 .item {
   margin: 10px;
+}
+
+@media (max-width: 450px) {
+  .container {
+    height: 300px;
+  }
 }

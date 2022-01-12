@@ -77,6 +77,7 @@ const Footer = () => {
           />
         </svg>
       </div>
+      <Wave direction="down" />
     </Fragment>
   );
 };

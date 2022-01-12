@@ -2,7 +2,6 @@ import Header from './Header';
 import styles from './PortfolioContainer.module.css';
 import Projects from './Projects';
 import ProjectCard from './ProjectCard';
-import Wave from './Wave';
 import Footer from './Footer';
 import THUMBNAILS from './thumbnails';
 
