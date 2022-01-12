@@ -60,7 +60,7 @@ hr {
   height: 65px;
   width: 100%;
   padding: 10px;
-  color: #333;
+  color: #333 !important;
   background: rgba(255, 255, 255, 0.4);
   transition: ease 0.5s;
 }
@@ -72,7 +72,7 @@ hr {
 
 .btn a {
   text-decoration: none;
-  color: #333;
+  color: #333 !important;
 }
 
 @media (max-width: 450px) {
