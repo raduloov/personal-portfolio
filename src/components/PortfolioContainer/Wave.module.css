@@ -1,0 +1,34 @@
+.wave-down {
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wave-down svg {
+  position: relative;
+  display: block;
+  width: calc(132% + 1.3px);
+  height: 56px;
+}
+
+.wave-down .shape-fill-down {
+  fill: #333;
+}
+
+.wave-up {
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.wave-up svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 59px;
+}
+
+.wave-up .shape-fill-up {
+  fill: #333;
+}

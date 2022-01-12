@@ -1,0 +1,12 @@
+.container {
+  background: #333;
+  height: 300px;
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.item {
+  margin: 10px;
+}

@@ -1,0 +1,95 @@
+.container {
+  height: 100vh;
+  position: relative;
+  border-bottom: 2px solid #aaa;
+}
+
+.right {
+  background-color: #333;
+  height: 100vh;
+  width: 50%;
+  border-bottom: 2px solid #aaa;
+}
+
+.title-box {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  z-index: 10;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 15px;
+}
+
+.title h1 {
+  color: #fff;
+  font-size: 4rem;
+  line-height: 80px;
+}
+
+.title h3 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 300;
+  margin-top: 15px;
+}
+
+.title hr {
+  width: 80%;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+}
+
+.links a {
+  text-decoration: none;
+  color: rgb(184, 184, 184);
+  padding: 0 15px 0 15px;
+  font-size: 1.2rem;
+  transition: ease 0.5s;
+}
+
+.links a:hover {
+  color: #fff;
+}
+
+.container > a {
+  color: #fff;
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  bottom: 35px;
+  left: 50%;
+  animation: slide 1.5s ease-in infinite;
+}
+
+.container > a:hover {
+  cursor: pointer;
+}
+
+@keyframes slide {
+  0% {
+    transform: translate(-50%, 0);
+  }
+  50% {
+    transform: translate(-50%, 20px);
+  }
+  100% {
+    transform: translate(-50%, 0);
+  }
+}
+
+@media (max-width: 920px) {
+  .title-box {
+    font-size: 1.5rem;
+  }
+}
