@@ -11,3 +11,18 @@ body {
   font-family: 'Poppins', sans-serif;
   background-color: #454545;
 }
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #616161;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #aaa;
+  border-radius: 10px;
+}
