@@ -12,7 +12,7 @@
   position: fixed;
   top: 20vh;
   left: 5%;
-  width: 90%;
+  width: 100%;
   background-color: white;
   padding: 1rem;
   border-radius: 30px;
@@ -23,8 +23,16 @@
 
 @media (min-width: 768px) {
   .modal {
-    width: 40rem;
-    left: calc(50% - 20rem);
+    width: 60rem;
+    left: calc(50% - 30rem);
+    top: 10%;
+  }
+}
+
+@media (max-width: 450px) {
+  .modal {
+    width: 20rem;
+    left: calc(50% - 10rem);
   }
 }
 

@@ -13,7 +13,16 @@ const ModalOverlay = props => {
     return (
       <div className={styles.modal}>
         <div className={styles.content}>
-          <Carousel />
+          <Carousel cert="fundamentals" />
+        </div>
+      </div>
+    );
+  }
+  if (props.img === '/static/media/softuni_basics_crop.af1e86a37c7233212fde.jpeg') {
+    return (
+      <div className={styles.modal}>
+        <div className={styles.content}>
+          <Carousel cert="basics" />
         </div>
       </div>
     );
