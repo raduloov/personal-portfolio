@@ -2,7 +2,7 @@ import Header from './Header';
 import styles from './PortfolioContainer.module.css';
 import Projects from './Projects';
 import ProjectCard from './ProjectCard';
-import Footer from './Footer';
+import TechStack from './TechStack';
 import THUMBNAILS from './thumbnails';
 
 const PortfolioContainer = () => {
@@ -51,7 +51,7 @@ const PortfolioContainer = () => {
           gitLink="https://github.com/raduloov/quiz-game"
         />
       </Projects>
-      <Footer />
+      <TechStack />
     </div>
   );
 };

@@ -3,6 +3,7 @@ import { Fragment, useState } from 'react';
 import CertCard from './CertCard';
 import styles from './CertContainer.module.css';
 import CERTS from './cert-img';
+import Wave from '../PortfolioContainer/Wave';
 
 const CertContainer = props => {
   const passToParent = certificate => {
@@ -52,6 +53,7 @@ const CertContainer = props => {
           />
         </div>
       </div>
+      <Wave direction="up" />
     </Fragment>
   );
 };

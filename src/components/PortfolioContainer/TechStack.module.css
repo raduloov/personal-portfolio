@@ -7,8 +7,21 @@
   justify-content: space-evenly;
 }
 
+.heading {
+  background: #333;
+  color: #dddddd;
+  font-size: 2rem;
+  font-weight: 300;
+  text-align: center;
+}
+
 .item {
-  margin: 10px;
+  margin: 5px;
+  transition: all ease 0.5s;
+}
+
+.item:hover {
+  transform: scale(1.1);
 }
 
 @media (max-width: 450px) {

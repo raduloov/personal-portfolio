@@ -1,16 +1,18 @@
 import { Fragment } from 'react';
-import styles from './Footer.module.css';
+import styles from './TechStack.module.css';
 import Wave from './Wave';
 
-const Footer = () => {
+const TechStack = () => {
   return (
     <Fragment>
       <Wave direction="up" />
+      <h2 className={styles.heading}>Tech Stack</h2>
       <div className={styles.container}>
         <svg
+          className={styles.item}
           width="110"
           height="110"
-          viewBox="0 0 256 120"
+          viewBox="0 0 256 145"
           version="1.1"
           preserveAspectRatio="xMidYMid"
         >
@@ -121,4 +123,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default TechStack;
