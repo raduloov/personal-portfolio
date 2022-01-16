@@ -1,5 +1,3 @@
-import { useRef } from 'react';
-
 import styles from './MainContainer.module.css';
 
 const TitleBox = () => {
@@ -17,7 +15,7 @@ const TitleBox = () => {
         <a href="https://github.com/raduloov" target="_blank">
           <i className="fab fa-github fa-2x"></i>
         </a>
-        <a href="https://www.linkedin.com/in/yavor-radulov-aa1626205/" target="_blank">
+        <a href="https://www.linkedin.com/in/yavorradulov/" target="_blank">
           <i className="fab fa-linkedin fa-2x"></i>
         </a>
       </div>
@@ -26,8 +24,6 @@ const TitleBox = () => {
 };
 
 const MainContainer = () => {
-  const scrollHandler = () => {};
-
   return (
     <div className={styles.container}>
       <TitleBox />
