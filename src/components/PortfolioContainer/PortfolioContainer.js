@@ -14,7 +14,7 @@ const PortfolioContainer = () => {
           img={THUMBNAILS[0]}
           title="Take-a-Note"
           date="16.01.2022"
-          description="Write and keep track of notes with custom colors and dates, saved to the your local storage."
+          description="Write and keep track of notes with custom colors and dates, saved to your local storage."
           demoLink="https://take-some-notes.netlify.app/"
           gitLink="https://github.com/raduloov/take-a-note"
         />
