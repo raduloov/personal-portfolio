@@ -1,4 +1,4 @@
-import { Fragment, useState } from 'react';
+import { useState } from 'react';
 
 import CertCard from './CertCard';
 import styles from './CertContainer.module.css';
@@ -11,7 +11,7 @@ const CertContainer = props => {
   };
 
   return (
-    <Fragment>
+    <div id="certifications">
       <div className={styles.container}>
         <h2 className={styles.title}>Certifications</h2>
         <div className={styles.certificates}>
@@ -54,7 +54,7 @@ const CertContainer = props => {
         </div>
       </div>
       <Wave direction="up" />
-    </Fragment>
+    </div>
   );
 };
 

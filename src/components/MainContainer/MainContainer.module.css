@@ -67,7 +67,7 @@
   border: none;
   background-color: transparent;
   position: absolute;
-  bottom: 35px;
+  bottom: 50px;
   left: 50%;
   animation: slide 1.5s ease-in infinite;
 }

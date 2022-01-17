@@ -7,7 +7,7 @@ import THUMBNAILS from './thumbnails';
 
 const PortfolioContainer = () => {
   return (
-    <div className={styles.container} id="portfolio-container">
+    <div className={styles.container} id="projects">
       <Header />
       <Projects>
         <ProjectCard
