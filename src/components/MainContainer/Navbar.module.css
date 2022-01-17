@@ -27,6 +27,7 @@
   width: 100%;
   text-decoration: none;
   color: #222;
+  pointer-events: fill;
   transition: all ease 0.5s;
 }
 
@@ -39,6 +40,7 @@
 
 .link:hover {
   background: #fff;
+  pointer-events: all;
 }
 
 .custom-shape-divider-top {

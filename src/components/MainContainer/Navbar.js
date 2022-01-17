@@ -6,9 +6,12 @@ const Navbar = () => {
       <a className={styles.link} href="#projects">
         Projects
       </a>
-      <a className={styles.link} href="#tech-stack">
-        Tech Stack
+      <a className={styles.link} href="#home">
+        Home
       </a>
+      {/* <a className={styles.link} href="#tech-stack">
+        Tech Stack
+      </a> */}
       <a className={styles.link} href="#certifications">
         Certifications
       </a>

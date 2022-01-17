@@ -29,16 +29,14 @@ const TitleBox = () => {
 
 const MainContainer = () => {
   return (
-    <>
-      <div className={styles.container}>
-        <TitleBox />
-        <div className={styles.left}></div>
-        <div className={styles.right}></div>
-        <a href="#projects">
-          <i className="fas fa-chevron-down fa-4x"></i>
-        </a>
-      </div>
-    </>
+    <div className={styles.container} id="home">
+      <TitleBox />
+      <div className={styles.left}></div>
+      <div className={styles.right}></div>
+      <a href="#projects">
+        <i className="fas fa-chevron-down fa-4x"></i>
+      </a>
+    </div>
   );
 };
 
