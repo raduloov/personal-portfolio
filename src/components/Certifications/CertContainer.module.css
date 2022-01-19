@@ -1,16 +1,17 @@
 .container {
+  background: #333;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  padding-top: 50px;
 }
 
 .title {
+  background: #333;
   color: #dddddd;
   font-size: 2rem;
   font-weight: 300;
-  margin-bottom: 80px;
+  padding: 50px;
 }
 
 .certificates {
@@ -19,6 +20,5 @@
   align-items: center;
   flex-wrap: wrap;
   max-width: 1500px;
-  background: #454545;
   margin: auto;
 }

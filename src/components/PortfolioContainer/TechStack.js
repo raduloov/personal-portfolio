@@ -4,7 +4,6 @@ import Wave from './Wave';
 const TechStack = () => {
   return (
     <div id="tech-stack">
-      <Wave direction="up" />
       <h2 className={styles.heading}>Tech Stack</h2>
       <div className={styles.container}>
         <svg

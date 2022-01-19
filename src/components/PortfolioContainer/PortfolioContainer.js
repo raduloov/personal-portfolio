@@ -4,11 +4,12 @@ import Projects from './Projects';
 import ProjectCard from './ProjectCard';
 import TechStack from './TechStack';
 import THUMBNAILS from './thumbnails';
+import Wave from './Wave';
 
 const PortfolioContainer = () => {
   return (
     <div className={styles.container} id="projects">
-      <Header />
+      <TechStack />
       <Projects>
         <ProjectCard
           img={THUMBNAILS[0]}
@@ -51,7 +52,7 @@ const PortfolioContainer = () => {
           gitLink="https://github.com/raduloov/quiz-game"
         />
       </Projects>
-      <TechStack />
+      <Wave direction="up" />
     </div>
   );
 };

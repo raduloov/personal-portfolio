@@ -53,7 +53,7 @@ const CertContainer = props => {
           />
         </div>
       </div>
-      <Wave direction="up" />
+      <Wave direction="down" />
     </div>
   );
 };
