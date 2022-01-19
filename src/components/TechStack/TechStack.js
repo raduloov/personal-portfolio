@@ -1,5 +1,5 @@
 import styles from './TechStack.module.css';
-import Wave from './Wave';
+import Wave from '../UI/Wave';
 
 const TechStack = () => {
   return (

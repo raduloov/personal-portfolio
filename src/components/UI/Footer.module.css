@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container a {
+  color: #fff;
+  border: none;
+  background-color: transparent;
+  animation: slide 1.5s ease-in infinite;
+}
+
+.container > a:hover {
+  cursor: pointer;
+}
+
+.container p {
+  color: #fff;
+  font-size: 2rem;
+  padding-top: 5px;
+}
+
+.container hr {
+  margin-bottom: 50px;
+  width: 200px;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

@@ -5,6 +5,7 @@ import Modal from './components/Certifications/Modal';
 import MainContainer from './components/MainContainer/MainContainer';
 import PortfolioContainer from './components/PortfolioContainer/PortfolioContainer';
 import Navbar from './components/MainContainer/Navbar';
+import Footer from './components/UI/Footer';
 
 const state = {
   certificate: null,
@@ -29,6 +30,7 @@ function App() {
       <MainContainer />
       <PortfolioContainer />
       <CertContainer onClick={openModal} />
+      <Footer />
     </React.Fragment>
   );
 }

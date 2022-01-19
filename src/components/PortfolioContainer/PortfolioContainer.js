@@ -1,10 +1,9 @@
-import Header from './Header';
 import styles from './PortfolioContainer.module.css';
 import Projects from './Projects';
 import ProjectCard from './ProjectCard';
-import TechStack from './TechStack';
+import TechStack from '../TechStack/TechStack';
 import THUMBNAILS from './thumbnails';
-import Wave from './Wave';
+import Wave from '../UI/Wave';
 
 const PortfolioContainer = () => {
   return (
