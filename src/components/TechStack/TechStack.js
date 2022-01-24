@@ -30,7 +30,7 @@ const TechStack = () => {
           className={styles.item}
           width="100"
           height="100"
-          viewBox="0 0 256 244"
+          viewBox="0 0 235 275"
           xmlns="http://www.w3.org/2000/svg"
           preserveAspectRatio="xMidYMid"
         >
@@ -41,9 +41,9 @@ const TechStack = () => {
         </svg>
         <svg
           className={styles.item}
-          width="110"
-          height="110"
-          viewBox="0 0 256 145"
+          width="100"
+          height="100"
+          viewBox="0 0 256 155"
           version="1.1"
           preserveAspectRatio="xMidYMid"
         >
