@@ -12,6 +12,14 @@ const PortfolioContainer = () => {
       <Projects>
         <ProjectCard
           img={THUMBNAILS[0]}
+          title="Bulb Up! Forum"
+          date="Work in progress..."
+          description="Forum application, log in and start sharing and replying to ideas!"
+          // demoLink="https://pseudo-shop.netlify.app/"
+          gitLink="https://github.com/raduloov/bulb-up-forum"
+        />
+        <ProjectCard
+          img={THUMBNAILS[1]}
           title="Pseudo Shop"
           date="24.01.2022"
           description="Web store app with dummy products, built with React, Redux and Tailwind. Connected to a backend database using Firebase. Cart items saved to and loaded from Local Storage"
@@ -19,7 +27,7 @@ const PortfolioContainer = () => {
           gitLink="https://github.com/raduloov/pseudo-shop"
         />
         <ProjectCard
-          img={THUMBNAILS[1]}
+          img={THUMBNAILS[2]}
           title="Take-a-Note"
           date="16.01.2022"
           description="Write and keep track of notes with custom colors and dates, saved to your local storage"
@@ -27,7 +35,7 @@ const PortfolioContainer = () => {
           gitLink="https://github.com/raduloov/take-a-note"
         />
         <ProjectCard
-          img={THUMBNAILS[2]}
+          img={THUMBNAILS[3]}
           title="Weather App"
           date="15.12.2021"
           description="Get weather information in real time for your current location or a manually typed one"
@@ -35,7 +43,7 @@ const PortfolioContainer = () => {
           gitLink="https://github.com/raduloov/weather-app"
         />
         <ProjectCard
-          img={THUMBNAILS[3]}
+          img={THUMBNAILS[4]}
           title="Calculator"
           date="08.12.2021"
           description="Simple JavaScript calculator"
@@ -43,7 +51,7 @@ const PortfolioContainer = () => {
           gitLink="https://github.com/raduloov/calculator"
         />
         <ProjectCard
-          img={THUMBNAILS[4]}
+          img={THUMBNAILS[5]}
           title="Crypto Markets"
           date="07.12.2021"
           description="Crypto prices and market cap in real time"
@@ -51,7 +59,7 @@ const PortfolioContainer = () => {
           gitLink="https://github.com/raduloov/crypto-markets"
         />
         <ProjectCard
-          img={THUMBNAILS[5]}
+          img={THUMBNAILS[6]}
           title="Quiz Game"
           date="01.12.2021"
           description="Simple quiz game with difficulties, sounds and fluid UI"
