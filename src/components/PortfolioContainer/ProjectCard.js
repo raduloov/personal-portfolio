@@ -3,10 +3,12 @@ import styles from './ProjectCard.module.css';
 const ProjectCard = props => {
   return (
     <div className={styles.item}>
-      <img className={styles.thumb} src={props.img} />
-      <h3 className={styles.title}>{props.title}</h3>
-      <p className={styles.date}>{props.date}</p>
-      <hr></hr>
+      <div className={styles.head}>
+        <img className={styles.thumb} src={props.img} />
+        <h3 className={styles.title}>{props.title}</h3>
+        <p className={styles.date}>{props.date}</p>
+        <hr></hr>
+      </div>
       <p className={styles.description}>{props.description}</p>
       <div className={styles.buttons}>
         <button className={styles.btn}>
