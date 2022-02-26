@@ -9,8 +9,16 @@ import fundamentalsFull2 from '../../assets/certificates/fundamentals_full_2.jpe
 import fundamentalsFull3 from '../../assets/certificates/fundamentals_full_3.jpeg';
 import basicsFull1 from '../../assets/certificates/basics_full_1.jpeg';
 import basicsFull2 from '../../assets/certificates/basics_full_2.jpeg';
+import softuniAdvancedCrop from '../../assets/certificates/softuni_advanced_crop.jpeg';
+import advancedFull1 from '../../assets/certificates/advanced_full_1.jpeg';
+import advancedFull2 from '../../assets/certificates/advanced_full_2.jpeg';
+import udemyReact from '../../assets/certificates/udemy_react.jpg';
+import udemyReactNative from '../../assets/certificates/udemy_react_native.jpg';
 
 const CERTS = [
+  udemyReactNative,
+  udemyReact,
+  softuniAdvancedCrop,
   fcc1,
   fcc2,
   udemyJS,
@@ -22,6 +30,8 @@ const CERTS = [
   fundamentalsFull3,
   basicsFull1,
   basicsFull2,
+  advancedFull1,
+  advancedFull2,
 ];
 
 export default CERTS;

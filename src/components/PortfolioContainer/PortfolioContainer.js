@@ -13,9 +13,8 @@ const PortfolioContainer = () => {
         <ProjectCard
           img={THUMBNAILS[0]}
           title="Bulb Up! Forum"
-          date="Work in progress..."
-          description="About
-          Log in to share your ideas or ask questions, give feedback or answer others, or give a post a bulb. Bulb-Up is built using React and Tailwind for the front-end and Firebase for the back-end database. Written in TypeScript."
+          date="20.02.2022"
+          description="Log in to share your ideas or ask questions, give feedback or answer others, or give a post a bulb. Bulb-Up is built using React and Tailwind for the front-end and Firebase for the back-end database. Written in TypeScript."
           demoLink="https://bulb-up.netlify.app/"
           gitLink="https://github.com/raduloov/bulb-up-forum"
         />

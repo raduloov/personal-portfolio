@@ -9,7 +9,20 @@ const Backdrop = props => {
 };
 
 const ModalOverlay = props => {
-  if (props.img === '/static/media/softuni_fundamentals_crop.226da285df192ab054ad.jpeg') {
+  if (
+    props.img === '/static/media/softuni_advanced_crop.1a8f3ed9267daa15384d.jpeg'
+  ) {
+    return (
+      <div className={styles.modal}>
+        <div className={styles.content}>
+          <Carousel cert="advanced" />
+        </div>
+      </div>
+    );
+  }
+  if (
+    props.img === '/static/media/softuni_fundamentals_crop.226da285df192ab054ad.jpeg'
+  ) {
     return (
       <div className={styles.modal}>
         <div className={styles.content}>
@@ -31,7 +44,7 @@ const ModalOverlay = props => {
   return (
     <div className={styles.modal}>
       <div className={styles.content}>
-        <img src={props.img} />
+        <img src={props.img} alt="Certificate" />
       </div>
     </div>
   );
@@ -43,7 +56,10 @@ const Modal = props => {
   return (
     <Fragment>
       {ReactDOM.createPortal(<Backdrop onClose={props.onClose} />, portalElement)}
-      {ReactDOM.createPortal(<ModalOverlay img={props.img}></ModalOverlay>, portalElement)}
+      {ReactDOM.createPortal(
+        <ModalOverlay img={props.img}></ModalOverlay>,
+        portalElement
+      )}
     </Fragment>
   );
 };
