@@ -5,7 +5,17 @@ import quiz from '../../assets/thumb/quiz.png';
 import notes from '../../assets/thumb/notes.png';
 import pseudo from '../../assets/thumb/pseudo.png';
 import bulbup from '../../assets/thumb/bulbup.png';
+import chatFirebase from '../../assets/thumb/chat-firebase.png';
 
-const THUMBNAILS = [bulbup, pseudo, notes, weather, calc, crypto, quiz];
+const THUMBNAILS = [
+  chatFirebase,
+  bulbup,
+  pseudo,
+  notes,
+  weather,
+  calc,
+  crypto,
+  quiz
+];
 
 export default THUMBNAILS;

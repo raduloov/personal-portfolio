@@ -11,16 +11,12 @@ const ProjectCard = props => {
       </div>
       <p className={styles.description}>{props.description}</p>
       <div className={styles.buttons}>
-        <button className={styles.btn}>
-          <a href={props.demoLink} target="_blank">
-            <i className="far fa-play-circle"></i> Live Demo
-          </a>
-        </button>
-        <button className={styles.btn}>
-          <a href={props.gitLink} target="_blank">
-            <i className="fas fa-code"></i> GitHub Repo
-          </a>
-        </button>
+        <a className={styles.btn} href={props.demoLink} target="_blank">
+          <i className="far fa-play-circle"></i>Live Demo
+        </a>
+        <a className={styles.btn} href={props.gitLink} target="_blank">
+          <i className="fas fa-code"></i>GitHub Repo
+        </a>
       </div>
     </div>
   );
