@@ -13,8 +13,8 @@ const PortfolioContainer = () => {
         <ProjectCard
           img={THUMBNAILS[0]}
           title="Chat App with Firebase"
-          date="11.03.2022"
-          description="Work in progress..."
+          date="12.03.2022"
+          description="Real time messaging app, built with React and Chakra UI for the front-end and Firebase Firestore for the back-end. Written in TypeScript."
           demoLink="https://chat-app--firebase.vercel.app/"
           gitLink="https://github.com/raduloov/chat-app-firebase"
         />
