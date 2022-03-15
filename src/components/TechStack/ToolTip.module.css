@@ -1,0 +1,19 @@
+.tooltip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding-left: 2px;
+  padding-right: 2px;
+  background-color: #fff;
+  animation: fade ease-in forwards 0.3s;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

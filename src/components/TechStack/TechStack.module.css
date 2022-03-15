@@ -18,15 +18,10 @@
 
 .item {
   margin: 5px;
+  cursor: pointer;
   transition: all ease 0.5s;
 }
 
 .item:hover {
   transform: scale(1.1);
-}
-
-@media (max-width: 450px) {
-  .container {
-    /* height: 300px; */
-  }
 }
