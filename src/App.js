@@ -8,7 +8,7 @@ import Navbar from './components/MainContainer/Navbar';
 import Footer from './components/UI/Footer';
 
 const state = {
-  certificate: null,
+  certificate: null
 };
 
 function App() {
@@ -17,6 +17,7 @@ function App() {
   const openModal = certificate => {
     setModalIsShown(true);
     state.certificate = certificate;
+    console.log(certificate);
   };
 
   const closeModal = () => {

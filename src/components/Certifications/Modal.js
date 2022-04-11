@@ -10,6 +10,17 @@ const Backdrop = props => {
 
 const ModalOverlay = props => {
   if (
+    props.img === '/static/media/softuni_applications_crop.9f2fc6afc7ff82cd98db.jpeg'
+  ) {
+    return (
+      <div className={styles.modal}>
+        <div className={styles.content}>
+          <Carousel cert="applications" />
+        </div>
+      </div>
+    );
+  }
+  if (
     props.img === '/static/media/softuni_advanced_crop.1a8f3ed9267daa15384d.jpeg'
   ) {
     return (

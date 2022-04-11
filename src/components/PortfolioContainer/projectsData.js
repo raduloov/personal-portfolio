@@ -7,8 +7,18 @@ import pseudo from '../../assets/thumb/pseudo.png';
 import bulbup from '../../assets/thumb/bulbup.png';
 import chatFirebase from '../../assets/thumb/chat-firebase.png';
 import rnMovies from '../../assets/thumb/rn-movies.png';
+import rnPseudo from '../../assets/thumb/rn-pseudo.png';
 
 const data = [
+  {
+    imageUrl: rnPseudo,
+    title: 'React Native Pseudo Shop',
+    date: '11.04.2022',
+    description:
+      'Pseudo Shop (one of my earlier projects) reimagined as a native mobile application.',
+    demoUrl: null,
+    gitUrl: 'https://github.com/raduloov/react-native-pseudo-shop'
+  },
   {
     imageUrl: rnMovies,
     title: 'React Native Movies App',

@@ -10,7 +10,7 @@ const PortfolioContainer = () => {
     <div className={styles.container} id="projects">
       <TechStack />
       <Projects>
-        {projects.map(project => (
+        {projects.map((project, index) => (
           <ProjectCard
             img={project.imageUrl}
             title={project.title}
@@ -18,6 +18,7 @@ const PortfolioContainer = () => {
             description={project.description}
             demoLink={project.demoUrl}
             gitLink={project.gitUrl}
+            key={index}
           />
         ))}
       </Projects>
