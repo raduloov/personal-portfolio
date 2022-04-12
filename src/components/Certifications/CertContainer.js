@@ -20,15 +20,15 @@ const CertContainer = props => {
             date="02.02.2022"
           />
           <CertCard
-            onClick={() => passToParent(CERTS[1])}
+            onClick={() => passToParent(CERTS[2])}
             img={CERTS[1]}
-            title="React - The Complete Guide (incl Hooks, React Router, Redux)"
+            title="React Native - The Practical Guide"
             date="24.02.2022"
           />
           <CertCard
-            onClick={() => passToParent(CERTS[2])}
+            onClick={() => passToParent(CERTS[1])}
             img={CERTS[2]}
-            title="React Native - The Practical Guide"
+            title="React - The Complete Guide (incl Hooks, React Router, Redux)"
             date="24.02.2022"
           />
           <CertCard
