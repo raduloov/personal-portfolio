@@ -17,7 +17,7 @@ const CertContainer = props => {
             onClick={() => passToParent(CERTS[0])}
             img={CERTS[0]}
             title="SoftUni JS Applications"
-            date="02.02.2022"
+            date="02.04.2022"
           />
           <CertCard
             onClick={() => passToParent(CERTS[2])}
