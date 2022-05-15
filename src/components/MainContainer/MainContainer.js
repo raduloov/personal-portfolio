@@ -6,7 +6,7 @@ const TitleBox = () => {
       <div className={styles.title}>
         <h1>Yavor Radulov</h1>
         <hr></hr>
-        <h3>Web Developer</h3>
+        <h3>Web / Mobile Developer</h3>
       </div>
       <div className={styles.links}>
         <a href="https://instagram.com/raduloov" target="_blank" rel="noreferrer">
