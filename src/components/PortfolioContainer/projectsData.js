@@ -18,7 +18,7 @@ const data = [
     description:
       'Fullstack Books is my first attempt at building a fullstack MERN application. An online book library where you can browse books with the help of the Google Books API, create an account and save them to "Favorites" and "To Read" lists. The front-end is written in TypeScript and the server in JavaScript.',
     demoUrl: 'http://fullstack-books.vercel.app/',
-    gitUrl: 'https://github.com/raduloov/react-native-pseudo-shop'
+    gitUrl: 'https://github.com/raduloov/fullstack-books'
   },
   {
     imageUrl: rnPseudo,
