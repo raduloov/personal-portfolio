@@ -8,8 +8,18 @@ import bulbup from '../../assets/thumb/bulbup.png';
 import chatFirebase from '../../assets/thumb/chat-firebase.png';
 import rnMovies from '../../assets/thumb/rn-movies.png';
 import rnPseudo from '../../assets/thumb/rn-pseudo.png';
+import fsBooks from '../../assets/thumb/fs-books.png';
 
 const data = [
+  {
+    imageUrl: fsBooks,
+    title: 'Fullstack Books',
+    date: '06.06.2022',
+    description:
+      'Fullstack Books is my first attempt at building a fullstack MERN application. An online book library where you can browse books with the help of the Google Books API, create an account and save them to "Favorites" and "To Read" lists. The front-end is written in TypeScript and the server in JavaScript.',
+    demoUrl: 'http://fullstack-books.vercel.app/',
+    gitUrl: 'https://github.com/raduloov/react-native-pseudo-shop'
+  },
   {
     imageUrl: rnPseudo,
     title: 'React Native Pseudo Shop',
