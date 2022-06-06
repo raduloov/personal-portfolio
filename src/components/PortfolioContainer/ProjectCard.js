@@ -18,7 +18,7 @@ const ProjectCard = props => {
             target="_blank"
             rel="noreferrer"
           >
-            <i className="far fa-play-circle"></i>Live Demo
+            <i className="fa-solid fa-play"></i>Live Demo
           </a>
         )}
         <a
@@ -27,7 +27,7 @@ const ProjectCard = props => {
           target="_blank"
           rel="noreferrer"
         >
-          <i className="fas fa-code"></i>GitHub Repo
+          <i className="fa-brands fa-github"></i>Source Code
         </a>
       </div>
     </div>
