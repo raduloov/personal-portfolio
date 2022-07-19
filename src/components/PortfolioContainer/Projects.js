@@ -1,12 +1,12 @@
-import { Fragment } from 'react/cjs/react.production.min';
+import React from 'react';
 import styles from './Projects.module.css';
 
 const Projects = props => {
   return (
-    <Fragment>
+    <React.Fragment>
       <h2 className={styles.title}>Personal Projects</h2>
       <div className={styles.container}>{props.children}</div>
-    </Fragment>
+    </React.Fragment>
   );
 };
 

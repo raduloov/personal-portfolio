@@ -1,8 +1,5 @@
 import weather from '../../assets/thumb/weather.png';
 import calc from '../../assets/thumb/calc.png';
-import crypto from '../../assets/thumb/crypto.png';
-import quiz from '../../assets/thumb/quiz.png';
-import notes from '../../assets/thumb/notes.png';
 import pseudo from '../../assets/thumb/pseudo.png';
 import bulbup from '../../assets/thumb/bulbup.png';
 import chatFirebase from '../../assets/thumb/chat-firebase.png';
@@ -66,15 +63,6 @@ const data = [
     gitUrl: 'https://github.com/raduloov/pseudo-shop'
   },
   {
-    imageUrl: notes,
-    title: 'Take-a-Note',
-    date: '16.01.2022',
-    description:
-      'Write and keep track of notes with custom colors and dates, saved to your local storage',
-    demoUrl: 'https://take-some-notes.netlify.app/',
-    gitUrl: 'https://github.com/raduloov/take-a-note'
-  },
-  {
     imageUrl: weather,
     title: 'Weather App',
     date: '15.12.2021',
@@ -90,22 +78,6 @@ const data = [
     description: 'Simple JavaScript calculator',
     demoUrl: 'https://basic-calcc.netlify.app/',
     gitUrl: 'https://github.com/raduloov/calculator'
-  },
-  {
-    imageUrl: crypto,
-    title: 'Crypto Markets',
-    date: '07.12.2021',
-    description: 'Crypto prices and market cap in real time',
-    demoUrl: 'https://crypto-marketss.netlify.app/',
-    gitUrl: 'https://github.com/raduloov/crypto-markets'
-  },
-  {
-    imageUrl: quiz,
-    title: 'Quiz Game',
-    date: '01.12.2021',
-    description: 'Simple quiz game with difficulties, sounds and fluid UI',
-    demoUrl: 'https://the-quiz-game.netlify.app',
-    gitUrl: 'https://github.com/raduloov/quiz-game'
   }
 ];
 
