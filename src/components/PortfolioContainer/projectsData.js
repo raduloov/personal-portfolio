@@ -6,8 +6,18 @@ import chatFirebase from '../../assets/thumb/chat-firebase.png';
 import rnMovies from '../../assets/thumb/rn-movies.png';
 import rnPseudo from '../../assets/thumb/rn-pseudo.png';
 import fsBooks from '../../assets/thumb/fs-books.png';
+import yummies from '../../assets/thumb/yummies.png';
 
 const data = [
+  {
+    imageUrl: yummies,
+    title: 'Yummies - iOS',
+    date: '18.08.2022',
+    description:
+      'Yummies is my first attempt at building a native iOS app using Swift and SwiftUI. A recipe browser where you can pin your favorites ones. Powered by Edamam Recipe Search API.',
+    demoUrl: null,
+    gitUrl: 'https://github.com/raduloov/yummies-ios'
+  },
   {
     imageUrl: fsBooks,
     title: 'Fullstack Books',
