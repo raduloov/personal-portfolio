@@ -7,8 +7,18 @@ import rnMovies from '../../assets/thumb/rn-movies.png';
 import rnPseudo from '../../assets/thumb/rn-pseudo.png';
 import fsBooks from '../../assets/thumb/fs-books.png';
 import yummies from '../../assets/thumb/yummies.png';
+import cathub from '../../assets/thumb/cathub.png';
 
 const data = [
+  {
+    imageUrl: cathub,
+    title: 'CatHub - Android',
+    date: '16.12.2022',
+    description:
+      'CatHub is a very simple native Android app for browsing cats. Built using Jetpack Compose and Kotlin.',
+    demoUrl: null,
+    gitUrl: 'https://github.com/raduloov/cathub-android'
+  },
   {
     imageUrl: yummies,
     title: 'Yummies - iOS',
