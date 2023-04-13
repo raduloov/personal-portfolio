@@ -8,8 +8,18 @@ import rnPseudo from '../../assets/thumb/rn-pseudo.png';
 import fsBooks from '../../assets/thumb/fs-books.png';
 import yummies from '../../assets/thumb/yummies.png';
 import cathub from '../../assets/thumb/cathub.png';
+import gymPals from '../../assets/thumb/gym-pals.png';
 
 const data = [
+  {
+    imageUrl: gymPals,
+    title: 'Gym Pals',
+    date: '[WIP]',
+    description:
+      'Track your workouts and share them with your friends. Built using the T3 stack (Next.js, tRPC, Prisma, Tailwind). Written in TypeScript.',
+    demoUrl: 'https://gym-pals.vercel.app/',
+    gitUrl: 'https://github.com/raduloov/gym-pals',
+  },
   {
     imageUrl: cathub,
     title: 'CatHub - Android',
@@ -17,7 +27,7 @@ const data = [
     description:
       'CatHub is a very simple native Android app for browsing cats. Built using Jetpack Compose and Kotlin.',
     demoUrl: null,
-    gitUrl: 'https://github.com/raduloov/cathub-android'
+    gitUrl: 'https://github.com/raduloov/cathub-android',
   },
   {
     imageUrl: yummies,
@@ -26,7 +36,7 @@ const data = [
     description:
       'Yummies is my first attempt at building a native iOS app using Swift and SwiftUI. A recipe browser where you can pin your favorites ones. Powered by Edamam Recipe Search API.',
     demoUrl: null,
-    gitUrl: 'https://github.com/raduloov/yummies-ios'
+    gitUrl: 'https://github.com/raduloov/yummies-ios',
   },
   {
     imageUrl: fsBooks,
@@ -35,7 +45,7 @@ const data = [
     description:
       'Fullstack Books is my first attempt at building a fullstack MERN application. An online book library where you can browse books with the help of the Google Books API, create an account and save them to "Favorites" and "To Read" lists. The front-end is written in TypeScript and the server in JavaScript.',
     demoUrl: 'http://fullstack-books.vercel.app/',
-    gitUrl: 'https://github.com/raduloov/fullstack-books'
+    gitUrl: 'https://github.com/raduloov/fullstack-books',
   },
   {
     imageUrl: rnPseudo,
@@ -44,7 +54,7 @@ const data = [
     description:
       'Pseudo Shop (one of my earlier projects) reimagined as a native mobile application.',
     demoUrl: null,
-    gitUrl: 'https://github.com/raduloov/react-native-pseudo-shop'
+    gitUrl: 'https://github.com/raduloov/react-native-pseudo-shop',
   },
   {
     imageUrl: rnMovies,
@@ -53,7 +63,7 @@ const data = [
     description:
       'My first mobile application [iOS + Android]. Browse movies, watch trailers and add the best to your favorites. Built using React Native and Firebase, written in TypeScript.',
     demoUrl: null,
-    gitUrl: 'https://github.com/raduloov/react-native-movies-app'
+    gitUrl: 'https://github.com/raduloov/react-native-movies-app',
   },
   {
     imageUrl: chatFirebase,
@@ -62,7 +72,7 @@ const data = [
     description:
       'Real time messaging app, built with React and Chakra UI for the front-end and Firebase Firestore for the back-end. Written in TypeScript.',
     demoUrl: 'https://chat-app--firebase.vercel.app/',
-    gitUrl: 'https://github.com/raduloov/chat-app-firebase'
+    gitUrl: 'https://github.com/raduloov/chat-app-firebase',
   },
   {
     imageUrl: bulbup,
@@ -71,7 +81,7 @@ const data = [
     description:
       'Log in to share your ideas or ask questions, give feedback or answer others, or give a post a bulb. Bulb-Up is built using React and Tailwind for the front-end and Firebase for the back-end database. Written in TypeScript.',
     demoUrl: 'https://bulb-up.netlify.app/',
-    gitUrl: 'https://github.com/raduloov/bulb-up-forum'
+    gitUrl: 'https://github.com/raduloov/bulb-up-forum',
   },
   {
     imageUrl: pseudo,
@@ -80,7 +90,7 @@ const data = [
     description:
       'Web store app with dummy products, built with React, Redux and Tailwind. Connected to a backend database using Firebase. Cart items saved to and loaded from Local Storage',
     demoUrl: 'https://pseudo-shop.netlify.app/',
-    gitUrl: 'https://github.com/raduloov/pseudo-shop'
+    gitUrl: 'https://github.com/raduloov/pseudo-shop',
   },
   {
     imageUrl: weather,
@@ -89,7 +99,7 @@ const data = [
     description:
       'Get weather information in real time for your current location or a manually typed one',
     demoUrl: 'https://weatherfy-app.netlify.app/',
-    gitUrl: 'https://github.com/raduloov/weather-app'
+    gitUrl: 'https://github.com/raduloov/weather-app',
   },
   {
     imageUrl: calc,
@@ -97,8 +107,8 @@ const data = [
     date: '08.12.2021',
     description: 'Simple JavaScript calculator',
     demoUrl: 'https://basic-calcc.netlify.app/',
-    gitUrl: 'https://github.com/raduloov/calculator'
-  }
+    gitUrl: 'https://github.com/raduloov/calculator',
+  },
 ];
 
 export default data;
