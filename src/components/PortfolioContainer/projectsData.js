@@ -9,8 +9,17 @@ import fsBooks from '../../assets/thumb/fs-books.png';
 import yummies from '../../assets/thumb/yummies.png';
 import cathub from '../../assets/thumb/cathub.png';
 import gymPals from '../../assets/thumb/gym-pals.png';
+import teniskiVarna from '../../assets/thumb/teniski-varna.png';
 
 const data = [
+  {
+    imageUrl: teniskiVarna,
+    title: 'Teniski Varna',
+    date: '[WIP]',
+    description: 'A real world online custom T-shirt store.',
+    demoUrl: 'https://teniski-varna.vercel.app/',
+    gitUrl: null,
+  },
   {
     imageUrl: gymPals,
     title: 'Gym Pals',

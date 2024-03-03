@@ -1,6 +1,6 @@
 import styles from './ProjectCard.module.css';
 
-const ProjectCard = props => {
+const ProjectCard = (props) => {
   return (
     <div className={styles.item}>
       <div className={styles.head}>
@@ -21,14 +21,16 @@ const ProjectCard = props => {
             <i className="fa-solid fa-play"></i>Live Demo
           </a>
         )}
-        <a
-          className={styles.btn}
-          href={props.gitLink}
-          target="_blank"
-          rel="noreferrer"
-        >
-          <i className="fa-brands fa-github"></i>Source Code
-        </a>
+        {props.gitLink && (
+          <a
+            className={styles.btn}
+            href={props.gitLink}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="fa-brands fa-github"></i>Source Code
+          </a>
+        )}
       </div>
     </div>
   );
