@@ -17,8 +17,10 @@ import udemyReactNative from '../../assets/certificates/udemy_react_native.jpg';
 import softuniApplicationsCrop from '../../assets/certificates/softuni_applications_crop.jpeg';
 import applicationsFull1 from '../../assets/certificates/applications_full_1.jpeg';
 import applicationsFull2 from '../../assets/certificates/applications_full_2.jpeg';
+import udemySolidityEthereum from '../../assets/certificates/udemy_solidity_ethereum.jpg';
 
 const CERTS = [
+  udemySolidityEthereum,
   softuniApplicationsCrop,
   udemyReactNative,
   udemyReact,
@@ -37,7 +39,7 @@ const CERTS = [
   advancedFull1,
   advancedFull2,
   applicationsFull1,
-  applicationsFull2
+  applicationsFull2,
 ];
 
 export default CERTS;
