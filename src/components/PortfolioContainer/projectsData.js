@@ -17,7 +17,7 @@ const data = [
     title: 'Teniski Varna',
     date: '[WIP]',
     description: 'A real world online custom T-shirt store.',
-    demoUrl: 'https://teniski-varna.vercel.app/',
+    demoUrl: 'https://teniskivarna.com/',
     gitUrl: null,
   },
   {
