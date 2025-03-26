@@ -10,13 +10,23 @@ import yummies from '../../assets/thumb/yummies.png';
 import cathub from '../../assets/thumb/cathub.png';
 import gymPals from '../../assets/thumb/gym-pals.png';
 import teniskiVarna from '../../assets/thumb/teniski-varna.png';
+import esp8266Pager from '../../assets/thumb/esp8266-pager.png';
 
 const data = [
   {
+    imageUrl: esp8266Pager,
+    title: 'ESP8266 Pager',
+    date: '26.03.2025',
+    description:
+      'My first embedded project - an LCD display (with I2C module), buzzer and a button connected to a ESP8266 module via a breadboard. A simple websocket server with Express that serves a simple HTML page where the user can send a message that will be printed on the LCD display.',
+    demoUrl: 'https://esp8266-pager.onrender.com/',
+    gitUrl: 'https://github.com/raduloov/esp8266-pager',
+  },
+  {
     imageUrl: teniskiVarna,
     title: 'Teniski Varna',
-    date: '[WIP]',
-    description: 'A real world online custom T-shirt store.',
+    date: '10.03.2025',
+    description: 'A real world online custom T-shirt store. Private repo',
     demoUrl: 'https://teniskivarna.com/',
     gitUrl: null,
   },
